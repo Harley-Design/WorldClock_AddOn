@@ -36,3 +36,8 @@ footer {
   padding: 15px;
   border-radius: 10px;
 }
+
+.logo {
+  display: block;
+  margin: 0 auto;
+}
