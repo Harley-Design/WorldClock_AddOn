@@ -1,26 +1,38 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 h1,
 h2 {
-  color: black;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
   display: inline;
-  font-size: 28px;
+}
+
+h1 {
+  color: rgb(35, 76, 129);
+  font-size: 27px;
+}
+h2 {
+  font-size: 16px;
 }
 
 select {
   display: block;
-  margin: 16px auto;
+  margin: 20px auto;
   width: 100%;
   border-radius: 6px;
-  padding: 5px;
+  padding: 8px;
   font-size: 14px;
   color: rgb(60, 60, 60);
 }
 
 footer {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
-  font-size: 12px;
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+a {
+  color: rgb(35, 76, 129);
 }
 
 #video {
@@ -40,11 +52,40 @@ footer {
   margin: 50px auto 5px auto;
   background: rgba(255, 255, 255, 0.8);
   width: 460px;
-  padding: 20px 25px;
+  padding: 20px 25px 10px;
   border-radius: 10px;
+  border: 3px solid white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 .logo {
   display: inline;
-  margin-right: 52px;
+  margin-right: 55px;
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(35, 76, 129, 0.5);
+}
+
+.city:last-child {
+  border: none;
+}
+
+.date {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.time {
+  color: rgb(35, 76, 129);
+  font-size: 33px;
+  font-weight: bold;
+}
+
+.time small {
+  font-size: 12px;
 }
