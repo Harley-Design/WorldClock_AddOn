@@ -8,11 +8,14 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
     integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
   <link rel="stylesheet" href="src/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
   <title>World Clock by Andrea</title>
 </head>
 
 <body>
-  <video autoplay loop type="video/mp4" id="video" src="images/AdobeStock_179397115.mp4"></video>
+  <video autoplay="on" loop type="video/mp4" id="video" src="images/AdobeStock_179397115.mp4"></video>
 
   <div class="wrapper">
     <div class="content">
@@ -29,24 +32,26 @@
         <option value="">Zurich</option>
       </select>
 
-      <div class="city">
+      <div class="city" id="brisbane">
         <div>
           <h2>Brisbane</h2>
-          <div class="date">August 15th 2022</div>
+          <div class="date"></div>
         </div>
-        <div class="time">1:48:15 <small> AM </small></div>
+        <div class="time"></div>
       </div>
-      <div class="city">
+
+      <div class="city" id="london">
         <div>
           <h2>London</h2>
-          <div class="date">August 15th 2022</div>
+          <div class="date"></div>
         </div>
-        <div class="time">1:48:15 <small> AM </small></div>
+        <div class="time"></div>
       </div>
-      <footer>
-        <a href="https://github.com/Harley-Design/WorldClock_AddOn.git">Open-source code</a> 💙 by Andrea
-      </footer>
     </div>
+    <footer>
+      <a href="https://github.com/Harley-Design/WorldClock_AddOn.git"> Open-source code</a> 💙 <strong>by
+        Andrea</strong>
+    </footer>
   </div>
 
   </div>
