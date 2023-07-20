@@ -73,7 +73,7 @@ a:hover {
 .city {
   display: flex;
   justify-content: space-between;
-  padding: 20px 0;
+  padding: 20px 4px;
   border-bottom: 1px solid rgba(35, 76, 129, 0.5);
 }
 
